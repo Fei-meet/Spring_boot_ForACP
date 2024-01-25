@@ -5,8 +5,11 @@ name: abc
 
 #对象：
 person:
-  name: ${name} #zhangsan
+  name: zhangsan #${name} #zhangsan
   age: 20
+  address:
+    - beijing
+    - shanghai
 
 #  对象行内写法:
 person2: {name: zhangsan,age: 20}
